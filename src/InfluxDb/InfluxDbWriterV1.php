@@ -5,7 +5,6 @@ namespace IMEdge\InfluxDbStreamer\InfluxDb;
 use Amp\Http\Client\HttpClient;
 use Amp\Http\Client\HttpClientBuilder;
 use Amp\Http\Client\Request;
-
 use Ramsey\Uuid\Uuid;
 
 use function base64_encode;
@@ -13,8 +12,8 @@ use function gzencode;
 
 class InfluxDbWriterV1
 {
-    const DEFAULT_PRECISION = 's';
-    const USER_AGENT = 'IMEdge-InfluxDB/0.7';
+    protected const DEFAULT_PRECISION = 's';
+    protected const USER_AGENT = 'IMEdge-InfluxDB/0.7';
 
     protected HttpClient $httpClient;
     protected readonly string $baseUrl;
