@@ -27,7 +27,7 @@
         "ext-zlib": "*",
         "amphp/http-client": "^5",
         "amphp/redis": "^2",
-        "gipfl/json": ">=0.2",
+        "imedge/json": ">=0.1",
         "imedge/metrics": ">=0.1",
         "imedge/redis-utils": ">=0.2",
         "psr/log": "^3.0|^1.0",

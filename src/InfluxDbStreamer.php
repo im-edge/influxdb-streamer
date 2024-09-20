@@ -5,7 +5,7 @@ namespace IMEdge\InfluxDbStreamer;
 use Amp\Http\Client\HttpClient;
 use Amp\Http\Client\HttpClientBuilder;
 use Amp\Redis\RedisClient;
-use gipfl\Json\JsonString;
+use IMEdge\Json\JsonString;
 use IMEdge\InfluxDbStreamer\InfluxDb\InfluxDbWriterV1;
 use IMEdge\InfluxDbStreamer\InfluxDb\LineProtocol;
 use IMEdge\Metrics\Measurement;
